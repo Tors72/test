@@ -3,7 +3,7 @@ import java.util.Scanner;
 import java.io.*;
 class main {
 
-    public static void main(String[] args){
+    public static void main(String[] args) throws IOException {
         Scanner sc = new Scanner(System.in);
         pu.ps("Hello, This is a test program!");
         //pu.print("Would you like to use"+"[number]program_name"+"?");
