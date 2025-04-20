@@ -3,12 +3,12 @@ import java.util.Scanner;
 import java.io.*;
 class main {
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         pu.ps("Hello, This is a test program!");
         //pu.print("Would you like to use"+"[number]program_name"+"?");
         pu.ps("Would you like to use " + "[0]menu driven program1" + "?");
-        //pu.ps("Would you like to use"+"[1]menu driven program2"+"?");
+        //pu.ps("Would you like to use"+"[1] menu-driven program2"+"?");
         pu.ps("[2] Run python script");
         pu.ps("Enter your choice: ");
         int c = sc.nextInt();

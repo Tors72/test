@@ -1,3 +1,4 @@
+//simple menu driven program
 import java.util.Scanner;
 
 public class menu {
