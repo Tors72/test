@@ -13,6 +13,6 @@ public class randomno {
         int c=rand.nextInt(a,(b+1));
         u.msg("Random Number:"+c);
         JOptionPane.showMessageDialog(null,"Random Number:"+c);
-        pu.ps("test");
+        u.ps("test");
     }
 }

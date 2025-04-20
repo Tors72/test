@@ -1,7 +1,7 @@
 import javax.swing.*;
 
 //so that I don't have to use gayass system.out.println again and again. pu.ps for string, pu.pd for double etc.
-class pu {
+class u {
     public static void ps(String text){
         System.out.println(text);}
     public static void pd(double text2){
