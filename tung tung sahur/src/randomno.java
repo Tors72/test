@@ -8,10 +8,10 @@ public class randomno {
     }
     static void otherandom(){
         Random rand=new Random();
-        int a= Integer.parseInt(JOptionPane.showInputDialog("Enter Lowest Digit"));
-        int b= Integer.parseInt(JOptionPane.showInputDialog("Enter Highest Digit"));
+        int a= Integer.parseInt(u.msg("Enter Lowest Digit"));
+        int b= Integer.parseInt(u.msg("Enter Highest Digit"));
         int c=rand.nextInt(a,(b+1));
-        JOptionPane.showMessageDialog(null,"Random Number:"+c);
+        u.msg("Random Number:"+c);
     }
 
 }
