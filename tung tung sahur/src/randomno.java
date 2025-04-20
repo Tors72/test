@@ -12,6 +12,7 @@ public class randomno {
         int b= Integer.parseInt(u.msg("Enter Highest Digit"));
         int c=rand.nextInt(a,(b+1));
         u.msg("Random Number:"+c);
+        JOptionPane.showMessageDialog(null,"Random Number:"+c);
+        pu.ps("test");
     }
-
 }
