@@ -15,6 +15,7 @@ class main {
         pu.ps("[3] GUI"); //tors1
         pu.ps("[4] Roll a dice"); //tors1
         pu.ps("[5] Random no. generator"); //tors1
+        pu.ps("[6]Arrays");
         pu.ps("Enter your choice: ");
         int c = sc.nextInt();
         switch (c) { //DO NOT SWITCH TO IF ELSE.
@@ -36,6 +37,9 @@ class main {
                 break;
             case 5:
                 randomno.otherandom();
+                break;
+            case 6:
+                arraytest.ar2d();
                 break;
             default:
                 pu.ps("invalid choice, exiting");

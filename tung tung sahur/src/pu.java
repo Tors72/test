@@ -1,3 +1,5 @@
+import javax.swing.*;
+
 //so that I don't have to use gayass system.out.println again and again. pu.ps for string, pu.pd for double etc.
 class pu {
     public static void ps(String text){
@@ -8,4 +10,8 @@ class pu {
         System.out.println(text3);}
     public static void pc(char text4){
         System.out.println(text4);}
+    public static String msg(String text){
+        JOptionPane.showMessageDialog(null, text);
+        return text;
+    }
 }
