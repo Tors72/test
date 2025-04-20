@@ -1,0 +1,11 @@
+//so that i dont have to use gayass system.out.println again and again. pu.ps for string, pu.pd for double etc.
+class pu {
+    public static void ps(String text){
+        System.out.println(text);}
+    public static void pd(double text2){
+        System.out.println(text2);}
+    public static void pI(int text3){
+        System.out.println(text3);}
+    public static void pc(char text4){
+        System.out.println(text4);}
+}
