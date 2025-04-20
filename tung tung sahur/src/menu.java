@@ -1,4 +1,4 @@
-//simple menu driven program
+//simple menu-driven program
 import java.util.Scanner;
 
 public class menu {
@@ -28,6 +28,7 @@ public class menu {
                 int x=sc.nextInt();
                 System.out.println(Math.pow(num2,1.0/x)+" is the xth of root of that number");
         }
+        sc.close();
     }
 }
 

@@ -21,10 +21,13 @@ class main {
                 break;
             case 2:
                 pytho.start();
+                pu.ps("Running");
                 break;
             default:
-                pu.ps("invalid choice");
-                break;
+                pu.ps("invalid choice, try again");
+                return;
+
         }
+        sc.close();
     }
 }
