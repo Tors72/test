@@ -22,6 +22,5 @@ public class objects {
             else
                 JOptionPane.showMessageDialog(null,"You crashed.");
         }
-        else{}
     }
 }

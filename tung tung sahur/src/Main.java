@@ -7,20 +7,20 @@ class Main {
 
     public static void main(String[] args) throws IOException {
         Scanner sc = new Scanner(System.in);
-        u.ps("Hello, This is a test program!");
+        u.ps("Hello! Select a sub-program to run.");
         //pu.print("[number]program_name");
-        u.ps("Would you like to use " +"\n"+"[0]terminal* menu driven program1");  //tors1
-        //pu.ps("Would you like to use"+"[1] menu-driven program2"+"?");
-        u.ps("[2] Run python script"); //tors1
-        u.ps("[3] GUI"); //tors1
-        u.ps("[4] Roll a dice"); //tors1
-        u.ps("[5] Random no. generator"); //tors1
-        u.ps("[6] Arrays");
-        u.ps("[7] ArrayLists(2D)");
+        u.ps("[0]Terminal Menu Driven Program");
+        u.ps("[2] Run Python Script");
+        u.ps("[3] JOptionPane GUI");
+        u.ps("[4] Roll a Dice");
+        u.ps("[5] Generate a Random Number");
+        u.ps("[6] Organising - Arrays");
+        u.ps("[7] Even More Organising - ArrayLists(2D)");
         u.ps("[8] For-each Loops in Arraylists");
-        u.ps("[9] Printf() statements");
-        u.ps("[10] Objects");
-        u.ps("[11] Constructors");
+        u.ps("[9] Money - Printf() statements");
+        u.ps("[10] Cars - Objects");
+        u.ps("[11] Jeremiah and Bob - Constructors");
+        u.ps("[12] Fazbear - Overloaded Constructors");
         u.ps("Enter your choice: ");
         int c = sc.nextInt();
         switch (c) { //DO NOT SWITCH TO IF ELSE.
@@ -65,7 +65,9 @@ class Main {
             case 11:
                 constructor.start();
                 break;
-
+            case 12:
+                ocons.start();
+                break;
             default:
                 u.ps("invalid choice, exiting");
             }

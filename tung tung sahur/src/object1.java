@@ -1,3 +1,4 @@
+//IGNORE "NEVER USED" ERRORS
 class car {
 
     String make = "Chevrolet";
