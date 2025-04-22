@@ -1,6 +1,6 @@
 import javax.swing.*;
 public class gui{
-    static void gui1() {
+    static void start() {
         int no=Integer.parseInt(JOptionPane.showInputDialog("Enter an even number under 100:"));
         if(no>100)
             JOptionPane.showMessageDialog(null, "The number is too big");

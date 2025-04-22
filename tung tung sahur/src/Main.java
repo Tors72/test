@@ -15,8 +15,10 @@ class Main {
         u.ps("[3] GUI"); //tors1
         u.ps("[4] Roll a dice"); //tors1
         u.ps("[5] Random no. generator"); //tors1
-        u.ps("[6]Arrays");
-        u.ps("[7]ArrayLists(2D)");
+        u.ps("[6] Arrays");
+        u.ps("[7] ArrayLists(2D)");
+        u.ps("[8] For-each Loops in Arraylists");
+        u.ps("[9] Printf() statements");
         u.ps("Enter your choice: ");
         int c = sc.nextInt();
         switch (c) { //DO NOT SWITCH TO IF ELSE.
@@ -31,7 +33,7 @@ class Main {
                 pytho.start();
                 break;
             case 3:
-                gui.gui1();
+                gui.start();
                 break;
             case 4:
                 randomno.dice();
@@ -47,13 +49,15 @@ class Main {
                     arraytest.ar2d();
                 break;
             case 7:
-                arraylists.list();
+                arraylists.start();
                 break;
             case 8:
-                foreachloops.fel();
+                foreachloops.start();
                 break;
-
-                default:
+            case 9:
+                printf.start();
+                break;
+            default:
                 u.ps("invalid choice, exiting");
             }
         }

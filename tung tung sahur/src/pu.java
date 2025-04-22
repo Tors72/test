@@ -1,20 +1,20 @@
 import javax.swing.*;
 
-//so that I don't have to use gayass system.out.println again and again. pu.ps for string, pu.pd for double etc.
+//so that I don't have to use gayass system.out.println again and again.
 class u {
-    public static String ps(String text){
+    static String ps(String text){
         System.out.println(text);
-        return text;
-    } //return statement IGNORE.
-    public static void pd(double text2){
-        System.out.println(text2);}
-    public static void pI(int text3){
-        System.out.println(text3);}
-    public static void pc(char text4){
-        System.out.println(text4);}
-    public static String msg(String text){
+        return text; } //return statement IGNORE.
+    static void ps(double text){
+        System.out.println(text);}
+    static void ps(int text){
+        System.out.println(text);}
+    static void ps(char text){
+        System.out.println(text); }
+    static String msg(String text){
         JOptionPane.showMessageDialog(null, text);
-        return text;
-
-    }
+        return text; }
 }
+// these methods are OVERLOADED!!! same name (ps) but different parameters.
+// name(parameter1, parameter2) = method signature, the ones above have diff parameters hence diff method signatures.
+//so I could use ps for int, string, double and char.

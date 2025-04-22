@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 class arraylists { //MORE ORGANISED!!
-    static void list(){
+    static void start(){
         ArrayList<ArrayList<String>> grocerylist = new ArrayList<>(); //arraylist of arraylists.
 
         ArrayList<String> foodlist = new ArrayList<>();
@@ -15,7 +15,7 @@ class arraylists { //MORE ORGANISED!!
         drinkslist.add("water");
         grocerylist.add(drinkslist);
 
-        u.ps(drinkslist.get(0));
+        u.ps(drinkslist.getFirst());
         u.ps(String.valueOf(grocerylist.get(0)));
         u.ps(grocerylist.get(0).get(1));
         //first get() retrieves the 0th ArrayList<String>
