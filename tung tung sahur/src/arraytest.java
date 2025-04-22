@@ -19,12 +19,13 @@ public class arraytest {
         colors[1][0] = "Red";
         colors[1][1] = "Yellow";
         //colors[2][0] = "White"; this would give out of bounds error
+        String a=
         u.ps(String.valueOf((colors.length))); //[number of arrays
         for (int i = 0; i < colors.length; i++) { //manages rows
             for (int j = 0; j < colors[i].length; j++) { //manages columns, takes length of row i
                 System.out.print(colors[i][j]+" ");
             }
-            u.ps("\n");
+            u.ps(" ");
         }
     }
 }

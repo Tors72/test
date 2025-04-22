@@ -3,11 +3,10 @@ import javax.swing.*;
 import java.util.Scanner;
 import java.io.*;
 
-class main {
+class Main {
 
     public static void main(String[] args) throws IOException {
         Scanner sc = new Scanner(System.in);
-        boolean run=true;
         u.ps("Hello, This is a test program!");
         //pu.print("[number]program_name");
         u.ps("Would you like to use " +"\n"+"[0]terminal* menu driven program1");  //tors1
@@ -17,6 +16,7 @@ class main {
         u.ps("[4] Roll a dice"); //tors1
         u.ps("[5] Random no. generator"); //tors1
         u.ps("[6]Arrays");
+        u.ps("[7]ArrayLists(2D)");
         u.ps("Enter your choice: ");
         int c = sc.nextInt();
         switch (c) { //DO NOT SWITCH TO IF ELSE.
@@ -46,9 +46,15 @@ class main {
                 else if(ch==2)
                     arraytest.ar2d();
                 break;
-            default:
+            case 7:
+                arraylists.list();
+                break;
+            case 8:
+                foreachloops.fel();
+                break;
+
+                default:
                 u.ps("invalid choice, exiting");
-                return;
             }
         }
     }
