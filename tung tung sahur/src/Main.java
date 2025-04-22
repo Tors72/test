@@ -19,6 +19,8 @@ class Main {
         u.ps("[7] ArrayLists(2D)");
         u.ps("[8] For-each Loops in Arraylists");
         u.ps("[9] Printf() statements");
+        u.ps("[10] Objects");
+        u.ps("[11] Constructors");
         u.ps("Enter your choice: ");
         int c = sc.nextInt();
         switch (c) { //DO NOT SWITCH TO IF ELSE.
@@ -44,9 +46,9 @@ class Main {
             case 6:
                 int ch=Integer.parseInt(JOptionPane.showInputDialog("1. 1d array, 2. 2d array?"));
                 if(ch==1)
-                        arraytest.at();
+                        array.at();
                 else if(ch==2)
-                    arraytest.ar2d();
+                    array.ar2d();
                 break;
             case 7:
                 arraylists.start();
@@ -57,6 +59,13 @@ class Main {
             case 9:
                 printf.start();
                 break;
+            case 10:
+                objects.start();
+                break;
+            case 11:
+                constructor.start();
+                break;
+
             default:
                 u.ps("invalid choice, exiting");
             }

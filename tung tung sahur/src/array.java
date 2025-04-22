@@ -1,6 +1,6 @@
 import javax.swing.*;
 
-public class arraytest {
+public class array {
     static void at() { // used to store multiple values in single variable
         String[] fruits = new String[3]; //assigning max index value for array. which is 3. (4 max string values)
         fruits[0] = JOptionPane.showInputDialog("First Fruit:");

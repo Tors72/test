@@ -16,7 +16,7 @@ class arraylists { //MORE ORGANISED!!
         grocerylist.add(drinkslist);
 
         u.ps(drinkslist.getFirst());
-        u.ps(String.valueOf(grocerylist.get(0)));
+        u.ps(String.valueOf(grocerylist.get(0))); // getFirst() == get(0)
         u.ps(grocerylist.get(0).get(1));
         //first get() retrieves the 0th ArrayList<String>
         // inside grocerylist which is,food list.
