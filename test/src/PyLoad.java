@@ -3,9 +3,9 @@
 
 import java.io.*;
 
-public class pytho {
+public class PyLoad {
     static void start() throws IOException {
-        ProcessBuilder a = new ProcessBuilder("py", "C:\\GitHub\\test\\tung tung sahur\\src\\script1.py");
+        ProcessBuilder a = new ProcessBuilder("py", "C:\\GitHub\\test\\test\\src\\script1.py");
         a.redirectErrorStream(true); //gives python output to java
         Process p = a.start(); //starts python process
         try (BufferedReader r = new BufferedReader(new InputStreamReader(p.getInputStream()))) {

@@ -33,7 +33,7 @@ class Main {
                 break;
             case 2:
                 u.ps("executing python script");
-                pytho.start();
+                PyLoad.start();
                 break;
             case 3:
                 gui.start();

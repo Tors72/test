@@ -5,3 +5,4 @@ j=8
 print(i*j)
 for i in range(3):
     print(i)
+print("why does mrbeast wanna..")

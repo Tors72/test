@@ -5,7 +5,7 @@ public class objects {
         //object= instance of class. containing attributes and methods.
         //eg= phone, desk, etc. (refer to oop1)
 
-        car mycar = new car(); // has attributes of Car from object1.java THIS IS AN OBJECT!!!!!!!
+        car mycar = new car(); // has attributes of Car from objects1.java THIS IS AN OBJECT!!!!!!!
         car mycar2 = new car();
         u.ps(mycar.color);
         u.ps(mycar.model);
