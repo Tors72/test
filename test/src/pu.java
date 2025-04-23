@@ -14,6 +14,16 @@ class u {
     static String msg(String text){
         JOptionPane.showMessageDialog(null, text);
         return text; }
+    static void p(String text){
+        System.out.print(text); }
+    static void p(int text){
+        System.out.print(text); }
+    static void p(char text){
+        System.out.print(text); }
+    static void p(double text){
+        System.out.print(text); }
+    static void in(String text){
+        JOptionPane.showInputDialog(null, text); }
 }
 // these methods are OVERLOADED!!! same name (ps) but different parameters.
 // name(parameter1, parameter2) = method signature, the ones above have diff parameters hence diff method signatures.

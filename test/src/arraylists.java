@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 class arraylists { //MORE ORGANISED!!
-    static void start(){
+    static void start() {
         ArrayList<ArrayList<String>> grocerylist = new ArrayList<>(); //arraylist of arraylists.
 
         ArrayList<String> foodlist = new ArrayList<>();
@@ -21,9 +21,6 @@ class arraylists { //MORE ORGANISED!!
         //first get() retrieves the 0th ArrayList<String>
         // inside grocerylist which is,food list.
         // the second one finds the 1st element of it(index)
-
-
     }
 }
-
 

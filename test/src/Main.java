@@ -44,11 +44,13 @@ class Main {
                 randomno.otherandom();
                 break;
             case 6:
-                int ch=Integer.parseInt(JOptionPane.showInputDialog("1. 1d array, 2. 2d array?"));
-                if(ch==1)
-                        array.at();
-                else if(ch==2)
+                int ch = Integer.parseInt(JOptionPane.showInputDialog("1. 1d array, 2. 2d array?, 3. obj array?"));
+                if (ch == 1)
+                    array.at();
+                else if (ch == 2)
                     array.ar2d();
+                else if( ch == 3)
+                    array.arob();
                 break;
             case 7:
                 arraylists.start();
@@ -60,7 +62,11 @@ class Main {
                 printf.start();
                 break;
             case 10:
+                int i = Integer.parseInt(JOptionPane.showInputDialog("Enter number: 1 for object1, 2 for object passing "));
+                if (i == 1)
                 objects.start();
+                else if (i == 2)
+                objects.start2();
                 break;
             case 11:
                 constructor.start();
@@ -68,8 +74,10 @@ class Main {
             case 12:
                 ocons.start();
                 break;
+            case 13:
+
             default:
                 u.ps("invalid choice, exiting");
-            }
         }
     }
+}
