@@ -1,5 +1,5 @@
-#use this as your main file for python scripts
-#ignore errors if for print and range, it will work in the program if python interpreter correctly set up.
+#use this as your main file for python scripts, you can add more ofc
+#ignore errors if for print and range.. etc , it will work in the program if the python interpreter is correctly set up.
 i=5
 j=8
 print(i*j)

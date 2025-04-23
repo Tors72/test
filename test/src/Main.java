@@ -9,7 +9,7 @@ class Main {
         Scanner sc = new Scanner(System.in);
         u.ps("Hello! Select a sub-program to run.");
         //pu.print("[number]program_name");
-        u.ps("[0]Terminal Menu Driven Program");
+        u.ps("[0] Terminal Menu Driven Program");
         u.ps("[2] Run Python Script");
         u.ps("[3] JOptionPane GUI");
         u.ps("[4] Roll a Dice");
@@ -21,6 +21,7 @@ class Main {
         u.ps("[10] Cars - Objects");
         u.ps("[11] Jeremiah and Bob - Constructors");
         u.ps("[12] Fazbear - Overloaded Constructors");
+        u.ps("[13] Inheritance Demonstration");
         u.ps("Enter your choice: ");
         int c = sc.nextInt();
         switch (c) { //DO NOT SWITCH TO IF ELSE.
@@ -75,7 +76,8 @@ class Main {
                 ocons.start();
                 break;
             case 13:
-
+                inheritance.run();
+                break;
             default:
                 u.ps("invalid choice, exiting");
         }

@@ -24,7 +24,7 @@ class u {
         System.out.print(text); }
     static void in(String text){
         JOptionPane.showInputDialog(null, text); }
-}
+    }
 // these methods are OVERLOADED!!! same name (ps) but different parameters.
 // name(parameter1, parameter2) = method signature, the ones above have diff parameters hence diff method signatures.
 //so I could use ps for int, string, double and char.
