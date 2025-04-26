@@ -1,6 +1,6 @@
 //main class
 import javax.swing.*;
-import java.util.Scanner;
+import java.util.*;
 import java.io.*;
 
 class Main {
@@ -15,13 +15,15 @@ class Main {
         u.ps("[4] Roll a Dice");
         u.ps("[5] Generate a Random Number");
         u.ps("[6] Organising - Arrays");
-        u.ps("[7] Even More Organising - ArrayLists(2D)");
+        u.ps("[7] More Organising - ArrayLists(2D)");
         u.ps("[8] For-each Loops in Arraylists");
         u.ps("[9] Money - Printf() statements");
         u.ps("[10] Cars - Objects");
         u.ps("[11] Jeremiah and Bob - Constructors");
         u.ps("[12] Fazbear - Overloaded Constructors");
         u.ps("[13] Inheritance Demonstration");
+        u.ps("[14] Abstraction Demonstration");
+        u.ps("[15] Encapsulation Demonstration");
         u.ps("Enter your choice: ");
         int c = sc.nextInt();
         switch (c) { //DO NOT SWITCH TO IF ELSE.
@@ -73,10 +75,16 @@ class Main {
                 constructor.start();
                 break;
             case 12:
-                ocons.start();
+                OverloadedConstructors.start();
                 break;
             case 13:
                 inheritance.run();
+                break;
+            case 14:
+                abstraction.run();
+                break;
+            case 15:
+                encapsulation.run();
                 break;
             default:
                 u.ps("invalid choice, exiting");

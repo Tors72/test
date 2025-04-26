@@ -5,7 +5,7 @@ ERRORS TO IGNORE= Constructor 'Pizza(java.lang.String)' is never used
  */
 
 
-public class ocons { //overloaded constructors, multiple constructors in the same class
+public class OverloadedConstructors { //overloaded constructors, multiple constructors in the same class
                         // same name but diff parameter.
     static void start(){ //similar to overloaded methods. DIFF PARAMETERS!!
 

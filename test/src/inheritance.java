@@ -12,8 +12,8 @@ class Vehicle {
     }
 }
 class Bike extends Vehicle{
-    int wheels=2;
-    String color="black";
+    int wheels = 2;
+    String color ="black";
 } //INHERITANCE!!!! BIKE=CHILD CLASS, VEHICLE=SUPER CLASS
 
 public class inheritance {
