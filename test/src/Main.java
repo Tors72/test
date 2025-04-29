@@ -21,9 +21,11 @@ class Main {
         u.ps("[10] Cars - Objects");
         u.ps("[11] Jeremiah and Bob - Constructors");
         u.ps("[12] Fazbear - Overloaded Constructors");
-        u.ps("[13] Inheritance Demonstration");
-        u.ps("[14] Abstraction Demonstration");
-        u.ps("[15] Encapsulation Demonstration");
+        u.ps("[13] Inheritance Demonstration - Superclass and Childclasses");
+        u.ps("[14] Abstraction ");
+        u.ps("[15] Encapsulation + Getter n Setter Methods");
+        u.ps("[16] Polymorphism Demonstration");
+        u.ps("[17] Dynamic Polymorphism");
         u.ps("Enter your choice: ");
         int c = sc.nextInt();
         switch (c) { //DO NOT SWITCH TO IF ELSE.
@@ -85,6 +87,12 @@ class Main {
                 break;
             case 15:
                 encapsulation.run();
+                break;
+            case 16:
+                polymorphism.run();
+                break;
+            case 17:
+                dynpolymorphism.run();
                 break;
             default:
                 u.ps("invalid choice, exiting");
