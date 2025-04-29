@@ -26,6 +26,7 @@ class Main {
         u.ps("[15] Encapsulation + Getter n Setter Methods");
         u.ps("[16] Polymorphism Demonstration");
         u.ps("[17] Dynamic Polymorphism");
+        u.ps("[18] Exception Handling - try() , catch() and finally{}");
         u.ps("Enter your choice: ");
         int c = sc.nextInt();
         switch (c) { //DO NOT SWITCH TO IF ELSE.
@@ -54,7 +55,7 @@ class Main {
                     array.at();
                 else if (ch == 2)
                     array.ar2d();
-                else if( ch == 3)
+                else if (ch == 3)
                     array.arob();
                 break;
             case 7:
@@ -69,9 +70,9 @@ class Main {
             case 10:
                 int i = Integer.parseInt(JOptionPane.showInputDialog("Enter number: 1 for object1, 2 for object passing "));
                 if (i == 1)
-                objects.start();
+                    objects.start();
                 else if (i == 2)
-                objects.start2();
+                    objects.start2();
                 break;
             case 11:
                 constructor.start();
@@ -94,8 +95,18 @@ class Main {
             case 17:
                 dynpolymorphism.run();
                 break;
+            case 18:
+                exceptionhandling.run();
+                break;
+            case 19:
+                filehandling.run();
+                break;
+            case 20:
+                calculator.run();
+                break;
             default:
-                u.ps("invalid choice, exiting");
+                u.ps("Invalid choice, exiting");
+                System.exit(123);
         }
     }
 }
