@@ -18,7 +18,6 @@ public class OverloadedConstructors { //overloaded constructors, multiple constr
         u.ps(fazbear.sauce);
     }
 }
-
 class Pizza {
     String topping;
     String sauce;

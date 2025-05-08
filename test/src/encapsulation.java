@@ -1,3 +1,5 @@
+
+
 public class encapsulation {  // + copying objects!!
     static void run(){
 
