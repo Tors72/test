@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="tung:jar">
+    <output-path>$PROJECT_DIR$/../tung_jar</output-path>
+    <root id="archive" name="tung.jar">
+      <element id="module-output" name="tung" />
+      <element id="library" level="application" name="Python 3.12 interpreter library" />
+    </root>
+  </artifact>
+</component>
