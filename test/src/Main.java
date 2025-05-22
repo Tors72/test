@@ -9,6 +9,7 @@ class Main {
         Scanner sc = new Scanner(System.in);
         u.ps("Hello! Select a sub-program to run.");
         //pu.print("[number]program_name");
+
         u.ps("[0] Terminal Menu Driven Program");
         u.ps("[2] Run Python Script");
         u.ps("[3] JOptionPane GUI");
@@ -27,6 +28,8 @@ class Main {
         u.ps("[16] Polymorphism Demonstration");
         u.ps("[17] Dynamic Polymorphism");
         u.ps("[18] Exception Handling - try() , catch() and finally{}");
+        u.ps("[19] File Handling");
+        u.ps("[20] GUIs - JFrame");
         u.ps("Enter your choice: ");
         int c = sc.nextInt();
         switch (c) { //DO NOT SWITCH TO IF ELSE.
@@ -102,7 +105,7 @@ class Main {
                 filehandling.run();
                 break;
             case 20:
-                calculator.run();
+                interfacea.run();
                 break;
             default:
                 u.ps("Invalid choice, exiting");
